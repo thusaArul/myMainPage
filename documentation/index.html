@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Documentation :: My Vitae</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+p, table, hr, .box {
+	margin-bottom: 25px;
+}
+.box p {
+	margin-bottom: 10px;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+  <h3 class="center alt">&ldquo;My Vitae&rdquo; Documentation by &ldquo;2webros&rdquo; v1.0</h3>
+  <hr>
+  <h1 class="center">&ldquo;My Vitae&rdquo;</h1>
+  <div class="borderTop">
+    <div class="span-6 colborder info prepend-1">
+      <p class="prepend-top"> <strong> Created: 10/8/2016<br>
+        By: 2webros<br>
+        Email: <a href="mailto:2webros@gmail.com">2webros@gmail.com</a> </strong> </p>
+    </div>
+    <!-- end div .span-6 -->
+    
+    <div class="span-12 last">
+      <p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/2webros">here</a>. Thanks so much!</p>
+    </div>
+  </div>
+  <!-- end div .borderTop -->
+  
+  <hr>
+  <h2 id="toc" class="alt">Table of Contents</h2>
+  <ol class="alpha">
+    <li><a href="#htmlStructure">HTML Structure</a></li>
+    <li><a href="#cssFiles">CSS Files and Structure</a></li>
+    <li><a href="#javascript">JavaScript</a></li>
+    <li><a href="#psdFiles">PSD Files</a></li>
+    <li><a href="#credits">Sources and Credits</a></li>
+  </ol>
+  <hr>
+  <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+  <p> This theme has two main content area. Left one is for basic info and contact form. Right section is for Portfolio, awards and experience. Right section is nested within a div with a class of "page-right" and left area with a class of "page-left". </p>
+  <p> For the main page left section you can see everthing nested within a div with a class of "side-left" and "side-right". </p>
+  <p>For bottom slide content you can see everything nested within a div with an id of "clientsDashboard".</p>
+  <p>If you would like to edit the color, font, or style of any elements in one of these columns, you would do the following:</p>
+  <pre>
+    .page-inner p a {
+		color: #someColor;
+	} 
+    .page-inner p a:hover {
+		color: #someColor;
+	} 
+</pre>
+  <p>If you find that your new style is not overriding, it is most likely because of a specificity problem. Scroll down in your CSS file and make sure that there isn't a similar style that has more weight.</p>
+  <p>So, to ensure that your new styles are applied, make sure that they carry enough "weight" and that there isn't a style lower in the CSS file that is being applied after yours.</p>
+  <p>If you want to change the image on main page i.e. 683x768</p>
+  <pre>	.side-right {
+		background: #urlOfYourImage;
+	}
+</pre>
+  <p>To change the right background image when right section is opened.</p>
+  <pre>	.open-right .side-right {
+	background: #urlOfYourImage;
+	}
+</pre>
+  <hr>
+  <h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+  <p>I'm using 7 CSS files in this theme. They are:</p>
+  <ul>
+    <li>main.css</li>
+    <li>style.css</li>
+    <li>responsive.css</li>
+    <li>tooltip-bloated.css</li>
+    <li>font-awesome.css</li>
+    <li>bootstrap.css</li>
+    <li>ionicons.css</li>
+  </ul>
+  <h4>main.css</h4>
+  <p>Includes all css files.</p>
+  <h4>style.css</h4>
+  <p>Contains all the section classes used in the layout. all sections are well commented like below:</p>
+  <pre>
+        /* === Intro Page === */
+
+	Contains related css
+
+	/* === Intro left section === */
+	
+	Contains related css
+	
+	/* === Intro left section === */
+    
+	Contains related css
+    
+        </pre>
+  <h4>responsive.css</h4>
+  <p>Contains all classes related to fluid layout in mobile, ipads and different resolution of screen.</p>
+  <h4>tooltip-bloated.css</h4>
+  <p>Contains all classes related to tooltip that is used in awards section.</p>
+  <h4>font-awesome.css</h4>
+  <p>You dont have to change anything in this file.</p>
+  <h4>bootstrap.css</h4>
+  <p>You dont have to change anything in this file.</p>
+  <h4>ionicons.css</h4>
+  <p>You dont have to change anything in this file.</p>
+  <hr>
+  <h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+  <p>This theme imports three Javascript files.</p>
+  <ol>
+    <li>jQuery</li>
+    <li>My custom scripts</li>
+    <li>Some plugin</li>
+  </ol>
+  <ol>
+    <li>jQuery is a Javascript library that greatly reduces the amount of code that you must write.</li>
+    <li>Some of the animation in this site is carried out from the customs scripts. The code contains in "common.js".</li>
+    <li>In addition to the custom scripts, I implement a few "tried and true" plugins to create the effects. This plugin is packed, so you won't need to manually edit anything in the file. The only necessary thing to know is how to call the method. For example:
+      <pre>/*--Scroll Function--*/ 
+$.localScroll({
+	duration:1000, // How long to animate.
+	hash:true, // if true, the hash of the selected link, will appear on the address bar.
+	onBefore:function( e, anchor, $target ){
+		// The 'this' is the settings object, can be modified
+	},
+	onAfter:function( anchor, settings ){
+		// The 'this' contains the scrolled element (#content)
+	}
+});
+
+/*Fancy Box*/
+$('.fancybox', '#portfolio').fancybox(); //popup js
+
+/*Change Counters*/
+<p>To change the counter on Main page bottom arrow. Change the numbers in div contains class "count".
+To change the counter on left side My Skills section. Change the numbers in span contains attribute "data-width".</p>
+</pre>
+    </li>
+  </ol>
+  <hr>
+  <h3 id="psdFiles"><strong>D) PSD Files</strong> - <a href="#toc">top</a></h3>
+  <p>I've included five psds with this theme:</p>
+  <ol>
+    <li><strong>The Main Home Page Pic </strong><br>
+      If you'd like to change the main image in the home page, open "mainpic.psd", insert the image, and then save the file as "mainpic.png". </li>
+    <li><strong>The Blurred Big Pic</strong><br>
+      If you'd like to change the main image in the home page, open "blurpic.psd", insert the image, and then save the file as "blurpic.png".</li>
+    <li><strong>The Profile Pic </strong><br>
+      If you'd like to change the main image in the home page, open "profilepic.psd", insert the image, and then save the file as "profilepic.png". </li>
+    <li><strong>My Portfolio Pic</strong><br>
+      If you'd like to change the main image in the home page, open "myportfolio.psd", insert the image, and then save the file as "myportfolio.png". All images should be different in name. </li>
+    <li><strong>The Awards Logo Pic </strong><br>
+      If you'd like to change the main image in the home page, open "awards.psd", insert the image, and then save the file as "awards.png". All images should be different in name. </li>
+  </ol>
+  <p>&nbsp;</p>
+  <p>Include any more specific information about your psds.</p>
+  <hr>
+  <h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+  <p>I've used some images for demo purpose only, Source listed below.
+  <ul>
+    <li><a href="https://picjumbo.com/" target="_blank">Pic Jumbo</a></li>
+    <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+  </ul>
+  <hr>
+  <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+  <p class="append-bottom alt large"><strong>2webros</strong></p>
+  <p><a href="#toc">Go To Table of Contents</a></p>
+  <hr class="space">
+</div>
+<!-- end div .container -->
+</body>
+</html>
