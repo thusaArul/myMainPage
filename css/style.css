@@ -1416,6 +1416,9 @@ figure.effect-apollo h3 {
 	text-transform: uppercase;
 	font-size: .8em;
 }
+figure.moveH3 h3 {
+	bottom: 95px;
+}
 figure.effect-apollo h2 {
 	text-align: left;
 }
