@@ -561,7 +561,7 @@ h1 {
 	bottom: 0px;
 	width: 30%;
 }
-.botnav ul > li:nth-child(2)::before {
+.botnav-right ul > li:nth-child(2)::before {
 	background: rgb(255, 255, 255) none repeat scroll 0 0;
 	content: "";
 	height: 2px;
@@ -863,19 +863,23 @@ h1 {
 	-moz-transition: all 0.65s ease-out 0s;
 	-webkit-transition: all 0.65s ease-out 0s;
 }
-.bar li {
-	list-style: none;
-	margin-bottom: 30px;
+.skillslist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.bar li .bar-wrap {
-	background: #79787e;
+.skillslist li {
+	/* width: 10%; */
+	text-align: center;
+	border: 2px solid black;
+	padding: 10px;
+	margin: 5px;
 }
-.bar li span {
-	background: #26252a;
+.skillslist li i {
+	font-size: 50px;
 }
-.bar li span {
-	overflow: visible !important;
-	position: relative;
+.responsive {
+	background-image: url(../assets/responsive.png);
 }
 .value1 span {
 	display: none !important;
@@ -1291,7 +1295,7 @@ h1 {
 	position: relative;
 	display: block;
 	opacity: 0.8;
-	width: 100%;
+	/* width: 100%; */
 }
 .grid figure figcaption {
 	padding: 2em;
@@ -1395,7 +1399,6 @@ figure.effect-apollo p {
 	bottom: 20px;
 	margin: 0em;
 	padding: 0 0;
-	max-width: 184px;
 	text-align: left;
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
