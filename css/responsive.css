@@ -25,7 +25,7 @@
 		font-size: 60px;
 	}
 	.bot_bot {
-		left: 45.6%;
+		left: calc(50% - 45px);
 	}
 	/*Intro bottom section end here */
 
@@ -54,7 +54,7 @@
 	}
 	/*Open right section - left section start here */
 }
-@media (min-width: 1024px) and (max-width: 1200px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
 		line-height: 75px;
@@ -104,7 +104,7 @@
 		font-size: 60px;
 	}
 	.bot_bot {
-		left: 45.6%;
+		left: calc(50% - 45px);
 	}
 	/*Intro bottom section end here */
 
@@ -152,7 +152,7 @@
 	}
 	/*Open right section end here */
 }
-@media (min-width: 768px) and (max-width: 999px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 	/*Open left section start here */
 	.imgsec {
 		width: 25%;
@@ -204,7 +204,7 @@
 		width: 50%;
 	}
 	.bot_bot {
-		left: 44%;
+		left: calc(50% - 45px);
 	}
 	/*Intro bottom section end here */
 
@@ -258,30 +258,27 @@
 	}
 	/*Open left section end here*/
 }
-@media (min-width: 640px) and (max-width: 767px) {
+@media (min-width: 640px) and (max-width: 768px) {
 	/*Intro left section start here */
 
 	.aboutme {
-		left: -34px;
-		top: 45%;
+		left: -16px;
+		top: 82%;
 		height: 50px;
-		width: 60px;
+		width: 150px;
 		line-height: 50px;
 	}
 	.abouticon {
 		font-size: 16px;
 		padding-right: 10px;
 	}
-	.aboutme p {
-		display: none;
-	}
 	.side-left:hover .aboutme {
-		left: -34px;
+		left: 0px;
 	}
 	.side-left:hover .aboutme p {
-		display: none;
 		opacity: 1;
 	}
+
 	.intro-content h1 > span:first-child {
 		line-height: 60px;
 		font-size: 5em;
@@ -300,26 +297,22 @@
 
 	/*Intro right section start  here */
 
-	.side-right:hover .Portfolio {
-		right: -34px;
+	.side-right:hover .portfolio {
+		right: 0px;
 	}
-	.side-right:hover .Portfolio p {
-		display: none;
+	.side-right:hover .portfolio p {
 		opacity: 1;
 	}
-	.Portfolio {
-		right: -34px;
-		top: 45%;
+	.portfolio {
+		right: -16px;
+		top: 82%;
 		height: 50px;
-		width: 60px;
+		width: 150px;
 		line-height: 50px;
 	}
-	.Portfolioicon {
+	.portfolioicon {
 		font-size: 16px;
 		padding-left: 10px;
-	}
-	.Portfolio p {
-		display: none;
 	}
 	/*Intro right section end  here */
 
@@ -331,7 +324,7 @@
 		font-size: 16px;
 	}
 	.bot_bot {
-		left: 45.5%;
+		left: calc(50% - 27.5px);
 		line-height: 30px;
 		height: 37px;
 	}
@@ -431,29 +424,8 @@
 	}
 	/*Open right section - left section end here*/
 }
-@media (min-width: 568px) and (max-width: 639px) {
+@media (min-width: 568px) and (max-width: 640px) {
 	/*Intro left section start here  */
-	.aboutme {
-		left: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.abouticon {
-		font-size: 16px;
-		padding-right: 10px;
-	}
-	.aboutme p {
-		display: none;
-	}
-	.side-left:hover .aboutme {
-		left: -34px;
-	}
-	.side-left:hover .aboutme p {
-		display: none;
-		opacity: 1;
-	}
 	.intro-content h1 > span:first-child {
 		line-height: 47px;
 	}
@@ -470,27 +442,7 @@
 	/*Intro left section end here  */
 
 	/*Intro right section start here  */
-	.side-right:hover .Portfolio {
-		right: -34px;
-	}
-	.side-right:hover .Portfolio p {
-		display: none;
-		opacity: 1;
-	}
-	.Portfolio {
-		right: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.Portfolioicon {
-		font-size: 16px;
-		padding-left: 10px;
-	}
-	.Portfolio p {
-		display: none;
-	}
+
 	/*Intro right section end here  */
 
 	/*Intro bottom section start here*/
@@ -501,7 +453,7 @@
 		font-size: 16px;
 	}
 	.bot_bot {
-		left: 44%;
+		left: calc(50% - 27.5px);
 		line-height: 30px;
 		height: 37px;
 	}
@@ -567,7 +519,7 @@
 		margin: 0 0 0 10px;
 		float: left;
 	}
-	.Portfoliosec {
+	.portfoliosec {
 		margin-top: 0px;
 	}
 	#resume p {
@@ -591,7 +543,7 @@
 	}
 	/*Open right section - left section end here */
 }
-@media (min-width: 480px) and (max-width: 567px) {
+@media (min-width: 480px) and (max-width: 568px) {
 	/*Intro Page start here*/
 	.page-inner {
 		padding: 1em;
@@ -599,27 +551,6 @@
 	/*Intro Page end here*/
 
 	/*Intro left section start here*/
-	.aboutme {
-		left: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.abouticon {
-		font-size: 16px;
-		padding-right: 10px;
-	}
-	.aboutme p {
-		display: none;
-	}
-	.side-left:hover .aboutme {
-		left: -34px;
-	}
-	.side-left:hover .aboutme p {
-		display: none;
-		opacity: 1;
-	}
 	.intro-content h1 > span:first-child {
 		line-height: 43px;
 	}
@@ -632,27 +563,6 @@
 	/*Intro left section end here*/
 
 	/*Intro right section start here */
-	.side-right:hover .Portfolio {
-		right: -34px;
-	}
-	.side-right:hover .Portfolio p {
-		display: none;
-		opacity: 1;
-	}
-	.Portfolio {
-		right: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.Portfolioicon {
-		font-size: 16px;
-		padding-left: 10px;
-	}
-	.Portfolio p {
-		display: none;
-	}
 	/*Intro right section end here */
 
 	/*Intro bottom section start here */
@@ -663,7 +573,7 @@
 		font-size: 16px;
 	}
 	.bot_bot {
-		left: 44%;
+		left: calc(50% - 27.5px);
 		line-height: 30px;
 		height: 37px;
 	}
@@ -694,7 +604,7 @@
 		width: 100%;
 		float: left;
 	}
-	.Portfoliosec {
+	.portfoliosec {
 		margin-top: 0px;
 	}
 	.awradpic {
@@ -773,7 +683,7 @@
 	}
 	/*Open left section - right section end here */
 }
-@media (min-width: 360px) and (max-width: 479px) {
+@media (min-width: 360px) and (max-width: 480px) {
 	/*Intro Page start here */
 	.page-inner {
 		padding: 1em;
@@ -781,27 +691,6 @@
 	/*Intro Page end here */
 
 	/*Intro left section start here	*/
-	.aboutme {
-		left: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.abouticon {
-		font-size: 16px;
-		padding-right: 10px;
-	}
-	.aboutme p {
-		display: none;
-	}
-	.side-left:hover .aboutme {
-		left: -34px;
-	}
-	.side-left:hover .aboutme p {
-		display: none;
-		opacity: 1;
-	}
 	.intro-content h1 > span:first-child {
 		line-height: 45px;
 	}
@@ -817,27 +706,6 @@
 	/*Intro left section end here	*/
 
 	/*Intro right section start here*/
-	.side-right:hover .Portfolio {
-		right: -34px;
-	}
-	.side-right:hover .Portfolio p {
-		display: none;
-		opacity: 1;
-	}
-	.Portfolio {
-		right: -34px;
-		top: 45%;
-		height: 50px;
-		width: 60px;
-		line-height: 50px;
-	}
-	.Portfolioicon {
-		font-size: 16px;
-		padding-left: 10px;
-	}
-	.Portfolio p {
-		display: none;
-	}
 	/*Intro right section end here*/
 
 	/*Intro bottom section start here */
@@ -848,7 +716,7 @@
 		font-size: 16px;
 	}
 	.bot_bot {
-		left: 42%;
+		left: calc(50% - 27.5px);
 		line-height: 30px;
 		height: 37px;
 	}
@@ -934,10 +802,10 @@
 		margin: 0 0 0 10px;
 		float: left;
 	}
-	.Portfoliosec .col-xs-6 {
+	.portfoliosec .col-xs-6 {
 		width: 100%;
 	}
-	.Portfoliosec {
+	.portfoliosec {
 		margin-top: 0px;
 	}
 	.awradpic {
@@ -973,7 +841,7 @@
 	/*Open right section end here*/
 }
 
-@media (min-width: 250px) and (max-width: 359px) {
+@media (min-width: 0px) and (max-width: 360px) {
 	/*Intro Page start here*/
 
 	.page-inner {
@@ -1033,7 +901,7 @@
 	}
 
 	.bot_bot {
-		left: 42%;
+		left: calc(50% - 27.5px);
 		line-height: 30px;
 		height: 37px;
 	}
@@ -1131,10 +999,10 @@
 	/*Open right section end here*/
 
 	/*Open right section - left section start here*/
-	.Portfoliosec .col-xs-6 {
+	.portfoliosec .col-xs-6 {
 		width: 100%;
 	}
-	.Portfoliosec {
+	.portfoliosec {
 		margin-top: 0px;
 	}
 	.Education_row {
