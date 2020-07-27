@@ -973,7 +973,7 @@
 	/*Open right section end here*/
 }
 
-@media (min-width: 320px) and (max-width: 359px) {
+@media (min-width: 250px) and (max-width: 359px) {
 	/*Intro Page start here*/
 
 	.page-inner {
