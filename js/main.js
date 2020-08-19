@@ -12,7 +12,7 @@ $('#clientsOpen', '#clientsDropDown').on("click", function () {
 	$(this).find("span").toggleClass('ion-android-arrow-down').toggleClass('ion-android-arrow-up');
 	return false;
 });
-  
+
 /*============= Scroll Functions ===========*/
 $.localScroll({
 	duration:1000, // How long to animate.
