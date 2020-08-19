@@ -1,4 +1,4 @@
-@media (min-width: 1280px) and (max-width: 1280px) {
+@media (min-width: 1280px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
 		line-height: 75px;
@@ -54,7 +54,7 @@
 	}
 	/*Open right section - left section start here */
 }
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (min-width: 1024px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
 		line-height: 75px;
@@ -152,7 +152,7 @@
 	}
 	/*Open right section end here */
 }
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
 	/*Open left section start here */
 	.imgsec {
 		width: 25%;
@@ -258,7 +258,7 @@
 	}
 	/*Open left section end here*/
 }
-@media (min-width: 640px) and (max-width: 768px) {
+@media (min-width: 640px) {
 	/*Intro left section start here */
 
 	.aboutme {
@@ -424,7 +424,7 @@
 	}
 	/*Open right section - left section end here*/
 }
-@media (min-width: 568px) and (max-width: 640px) {
+@media (min-width: 568px) {
 	/*Intro left section start here  */
 	.intro-content h1 > span:first-child {
 		line-height: 47px;
@@ -543,7 +543,7 @@
 	}
 	/*Open right section - left section end here */
 }
-@media (min-width: 480px) and (max-width: 568px) {
+@media (min-width: 480px) {
 	/*Intro Page start here*/
 	.page-inner {
 		padding: 1em;
@@ -683,7 +683,7 @@
 	}
 	/*Open left section - right section end here */
 }
-@media (min-width: 360px) and (max-width: 480px) {
+@media (min-width: 360px) {
 	/*Intro Page start here */
 	.page-inner {
 		padding: 1em;
@@ -841,7 +841,7 @@
 	/*Open right section end here*/
 }
 
-@media (min-width: 0px) and (max-width: 360px) {
+@media (max-width: 359px) {
 	/*Intro Page start here*/
 
 	.page-inner {

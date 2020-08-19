@@ -1164,7 +1164,7 @@ h1 {
 }
 .open-right .side-right {
 	right: 0;
-	background: url(../img/blurpic.png) no-repeat center top;
+	background: url(../assets/blurpic.png) no-repeat center top;
 	background-size: cover;
 }
 /*8. Open right section end here */ 
