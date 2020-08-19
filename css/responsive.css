@@ -1,3 +1,9 @@
+@media (min-width: 1300px) {
+	.col-xs-6 {
+		width: 33%;
+	}
+}
+
 @media (min-width: 1280px) and (max-width: 1280px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
@@ -54,6 +60,7 @@
 	}
 	/*Open right section - left section start here */
 }
+
 @media (min-width: 1024px) and (max-width: 1279px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
@@ -152,6 +159,19 @@
 	}
 	/*Open right section end here */
 }
+
+@media (min-width: 860px) {
+	.col-xs-6 {
+		width: 50%;
+	}
+}
+
+@media (max-width: 860px) {
+	.col-xs-6 {
+		width: 99%;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
 	/*Open left section start here */
 	.imgsec {
