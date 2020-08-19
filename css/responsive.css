@@ -1,9 +1,3 @@
-@media (min-width: 1300px) {
-	.col-xs-6 {
-		width: 33%;
-	}
-}
-
 @media (min-width: 1280px) and (max-width: 1280px) {
 	/*Intro left start here section*/
 	.intro-content h1 > span:first-child {
@@ -163,6 +157,12 @@
 @media (min-width: 860px) {
 	.col-xs-6 {
 		width: 50%;
+	}
+}
+
+@media (min-width: 1300px) {
+	.col-xs-6 {
+		width: 33%;
 	}
 }
 
