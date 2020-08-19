@@ -381,16 +381,25 @@
                 <a href="#"class="hvr-shutter-in-vertical"><i class="fa fa-skype"></i></a> 
                 </div>
                 <p class="nomargin">or fill the form below for a quick callback</p>
-                <form name="contactform" action="form.php" method="post">
-                <input type="hidden" name="myvitae" value="">
+
+                <!-- <form name="contactform" action="form.php" method="post">
                 <input type="hidden" name="theSubject" value="Contact Request">
                 <input name="name" type="text" class="inputbg1" placeholder="Your name" required>
                 <input name="email" type="email" class="inputbg" placeholder="Your email" required>
                 <input name="phone" type="text" class="inputbg" placeholder="Your phone" required>
                 <textarea name="message" class="textareabg" placeholder="Your message"></textarea>
-                <!-- <button type="submit" class="hvr-rectangle-in send_button">Send</button> -->
                 <input type="submit" class="hvr-rectangle-in send_button" value="Send">
+              </form> -->
+
+              <form name="contactform" method="POST" data-netlify="true">
+                <!-- <input type="hidden" name="theSubject" value="Contact Request"> -->
+                <input name="name" type="text" class="inputbg1" placeholder="Your name" required>
+                <input name="email" type="email" class="inputbg" placeholder="Your email" required>
+                <input name="phone" type="text" class="inputbg" placeholder="Your phone" required>
+                <textarea name="message" class="textareabg" placeholder="Your message"></textarea>
+                <button type="submit" class="hvr-rectangle-in send_button">Send</button>
               </form>
+
             </section>
             </div>
         </div>
